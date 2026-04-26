@@ -1,0 +1,21 @@
+people_id,focus,num_discussions,num_meetings,num_plans,num_topics
+Carol Limpet,both,4,3,1,1
+Carol Limpet,other,3,2,2,1
+Carol Limpet,tourism,7,5,4,2
+Ed Helpsford,fishing,5,3,4,2
+Ed Helpsford,other,2,1,2,2
+Ed Helpsford,tourism,3,1,3,2
+Seal,fishing,3,2,3,2
+Seal,tourism,4,2,2,2
+Simone Kat,both,2,4,3,1
+Simone Kat,fishing,12,4,7,5
+Simone Kat,tourism,11,2,8,4
+Tante Titan,both,1,2,2,1
+Tante Titan,other,14,4,13,3
+Tante Titan,tourism,13,5,11,4
+Teddy Goldstein,fishing,9,5,7,4
+Teddy Goldstein,tourism,4,2,2,2
+Ed Helpsford,both,,2,,
+Seal,both,,1,,
+Teddy Goldstein,both,,2,,
+Simone Kat,other,2,,,1
