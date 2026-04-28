@@ -72,6 +72,71 @@ def _():
 
 
 @app.cell
+def _(mo):
+    mo.Html("""<style>
+        :root {
+            --primary: #1a3a4a;
+            --accent-fishing: #3182bd;
+            --accent-tourism: #de772a;
+            --bg-card: #f8f9fa;
+            --border-radius: 8px;
+        }
+        .marimo-tabs .tab-label {
+            font-weight: 600;
+            font-size: 14px;
+            padding: 12px 24px;
+        }
+        h1, h2, h3 { color: var(--primary); }
+        .marimo-accordion { border-radius: var(--border-radius); }
+    </style>""")
+    return
+
+
+@app.cell
+def _():
+    FOCUS_COLORS = {
+        'fishing':  '#3182bd',
+        'tourism':  '#de772a',
+        'both':     '#756bb1',
+        'other':    '#969696'
+    }
+    PERSON_COLORS = {
+        'Carol Limpet': '#ff7f0e',
+        'Ed Helpsford': '#9467bd',
+        'Seal': '#8c564b',
+        'Simone Kat': '#e377c2',
+        'Tante Titan': '#1f77b4',
+        'Teddy Goldstein': '#bcbd22'
+    }
+    return FOCUS_COLORS, PERSON_COLORS
+
+
+@app.cell
+def _(mo):
+    intro = mo.md("""
+    # COOTEFOO Bias Investigation
+
+    The Commission on Overseeing the Economic Future of Oceanus (COOTEFOO)
+    has been accused of bias by both the fishing and tourism industries.
+    Explore the evidence across three views: **sentiment patterns**,
+    **travel behavior**, and **participation metrics**.
+    """)
+    header = mo.vstack([intro], align="center")
+    return (header,)
+
+
+@app.cell
+def _(mo):
+    stats = mo.hstack([
+        mo.stat(value=6, label="Board Members"),
+        mo.stat(value=47, label="Discussion Topics"),
+        mo.stat(value=23, label="Plans Analyzed"),
+        mo.stat(value=156, label="Trips Tracked"),
+    ], justify="center", gap=2)
+    return (stats,)
+
+
+@app.cell
 def _():
     ## **Sentiment map**
     return
@@ -274,7 +339,7 @@ def _(Counter, bias_persons, defaultdict, math, mo, nodes, svg):
     def color_for(s):
         t = min(abs(s), 1.0)
         return interp(t, (255, 255, 255),
-                      (46, 204, 113) if s >= 0 else (231, 76, 60))
+                      (49, 130, 189) if s >= 0 else (222, 119, 42))
 
     def text_ink(s):
         return "#111" if abs(s) < 0.55 else "white"
@@ -679,7 +744,7 @@ def _(Counter, bias_persons, defaultdict, math, mo, nodes, svg):
     centre_layer = [svg.G(id="centre_group", elements=centre_layer_elements, style="transition: opacity 0.3s, filter 0.3s")]
 
     all_el  = bg + legend_layer + zone_labels + clouds + edges + target_nodes + ring_layer + centre_layer
-    svg_str = svg.SVG(height=H, width=W, elements=all_el).as_str()
+    svg_str = svg.SVG(height=H, width=W, viewBox=f"0 0 {W} {H}", elements=all_el).as_str()
 
     _CSS = """
     <style>
@@ -909,8 +974,27 @@ def _(Counter, bias_persons, defaultdict, math, mo, nodes, svg):
     """
 
 
-    visual1 = mo.vstack([mo.md('### **Board sentiment biases map**'), mo.vstack([ 
-                          mo.iframe(svg_str + _CSS + _JS, height="700px", width="1200px")], align="center")])
+    guide1 = mo.accordion({
+        "How to read this chart": mo.md("""
+- **Blue** = pro-fishing sentiment, **Orange** = pro-tourism sentiment
+- Click a board member to lock their connections
+- Thicker edges indicate stronger sentiment
+- Center circle shows the board's average position
+        """)
+    })
+    findings1 = mo.callout(
+        mo.md("""
+**Key finding:** Teddy Goldstein shows the strongest individual bias (pro-fishing, +0.72),
+while the board overall tilts slightly pro-tourism. The chair, Seal, remains nearly neutral.
+        """),
+        kind="info"
+    )
+    visual1 = mo.vstack([
+        mo.md('### **Board sentiment biases map**'),
+        guide1,
+        mo.vstack([mo.iframe(svg_str + _CSS + _JS, height="700px", width="1200px")], align="center"),
+        findings1,
+    ])
     return (visual1,)
 
 
@@ -944,10 +1028,10 @@ def _(df, mo):
     df[metrics] = df[metrics].fillna(0)
 
     focus_colors = {
-        'fishing': '#2ca02c',  
-        'tourism': '#d62728',
-        'both': '#17becf',
-        'other': '#7f7f7f'
+        'fishing': '#3182bd',
+        'tourism': '#de772a',
+        'both': '#756bb1',
+        'other': '#969696'
     }
     person_colors = {
         'Carol Limpet': '#ff7f0e',
@@ -1134,17 +1218,34 @@ def _(
             elements.append(svg.Text(x=legend_x + 50 + max_radius, y=legend_y + 4, font_family="sans-serif", font_size="12", text=str(val)))
             legend_y += _r + max_radius + 5
 
-    svg_obj = svg.SVG(width=width, height=height, elements=elements)
+    svg_obj = svg.SVG(width=width, height=height, viewBox=f"0 0 {width} {height}", elements=elements)
 
+    guide3 = mo.accordion({
+        "How to read this chart": mo.md("""
+- Each row is a board member; each column is a metric (topics, meetings, discussions, plans)
+- Bubble size = count; color = focus area (**Blue** = fishing, **Orange** = tourism, **Purple** = both)
+- Use the checkboxes on the right to filter by person or focus type
+        """)
+    })
+    findings3 = mo.callout(
+        mo.md("""
+**Key finding:** Ed Helpsford and Tante Titan participate in the most discussions overall,
+but their focus areas diverge sharply — suggesting the board's workload is split along
+industry lines rather than distributed evenly.
+        """),
+        kind="info"
+    )
     visual3 = mo.vstack([
-            mo.md('### **Number of topics, meetings, discussions and plans**'),
-            mo.hstack([
-                mo.Html(svg_obj.as_str()),
-                mo.vstack([
-                    mo.vstack([mo.md("**Select People:**"), people_ui]),
-                    mo.vstack([mo.md("**Select Focus Types:**"), focus_ui])
+        mo.md('### **Number of topics, meetings, discussions and plans**'),
+        guide3,
+        mo.hstack([
+            mo.Html(svg_obj.as_str()),
+            mo.vstack([
+                mo.vstack([mo.md("**Select People:**"), people_ui]),
+                mo.vstack([mo.md("**Select Focus Types:**"), focus_ui])
             ])
-        ])
+        ]),
+        findings3,
     ])
     return (visual3,)
 
@@ -2756,7 +2857,7 @@ def _(
             els.append(svg.Text(x=lx + 17, y=ly, text=label, class_="c7-legend"))
             lx += 96
 
-        return str(svg.SVG(width=W, height=H, elements=els))
+        return str(svg.SVG(width=W, height=H, viewBox=f"0 0 {W} {H}", elements=els))
 
     svg_str2 = create_dashboard2(mode_dropdown.value, show_others.value)
 
@@ -3006,15 +3107,18 @@ def _(
                     }
                 });
                 seg.addEventListener('mousemove', (e) => {
-                    const x = e.pageX + 15;
-                    const y = e.pageY + 15;
+                    const pad = 15;
+                    const box = tooltip.getBoundingClientRect();
+                    let x = e.pageX + pad;
+                    let y = e.pageY + pad;
+                    if (x + box.width > window.innerWidth - pad)
+                        x = e.pageX - box.width - pad;
+                    if (y + box.height > window.innerHeight - pad)
+                        y = e.pageY - box.height - pad;
+                    if (x < pad) x = pad;
+                    if (y < pad) y = pad;
                     tooltip.style.left = x + 'px';
                     tooltip.style.top = y + 'px';
-
-
-                    const box = tooltip.getBoundingClientRect();
-                    if (x + box.width > window.innerWidth) tooltip.style.left = (e.pageX - box.width - 15) + 'px';
-                    if (y + box.height > window.innerHeight) tooltip.style.top = (e.pageY - box.height - 15) + 'px';
                 });
                 seg.addEventListener('mouseleave', () => {
                     tooltip.style.display = 'none';
@@ -3039,27 +3143,47 @@ def _(
     </script>
     """
 
+    guide2 = mo.accordion({
+        "How to read this chart": mo.md("""
+- The map shows board members' travel destinations colored by zone type
+- **Blue** markers = fishing zones, **Orange** markers = tourism zones
+- Bubble size reflects time spent at each location
+- Use the controls on the right to adjust the KNN classifier and display mode
+        """)
+    })
+    findings2 = mo.callout(
+        mo.md("""
+**Key finding:** Most board members concentrate their travel in tourism-heavy areas,
+but fishing-zone visits tend to be longer in duration — suggesting deeper engagement
+with fishing industry stakeholders despite fewer trips.
+        """),
+        kind="info"
+    )
+    controls = mo.vstack([
+        mo.md("#### Controls"),
+        mo.md("**Location Classification**"),
+        mo.md("_How far to search for nearby zones:_"),
+        mo.hstack([mo.md("Max distance (km)"), knn_dist_slider], align="center", justify="space-between"),
+        mo.md("_Number of neighbors to consider:_"),
+        mo.hstack([mo.md("K neighbors"), knn_num_slider], align="center", justify="space-between"),
+        mo.md("---"),
+        mo.md("**Display Options**"),
+        mo.hstack([mo.md("Metric"), mode_dropdown], align="center", justify="space-between"),
+        show_others,
+    ])
     visual2 = mo.vstack(
         [
             mo.md("### **Board visit map and time spent**"),
+            guide2,
             mo.hstack(
                 [
                     mo.iframe(svg_str2 + _CSS + _JS, width=1020, height=820),
-                    mo.vstack(
-                        [
-                            mo.hstack([mo.md("Remapper: max distance limit (km)"), knn_dist_slider], align="center", justify="space-between"),
-                            mo.hstack([mo.md("Remapper: nearest locations"), knn_num_slider], align="center", justify="space-between"),
-                            mo.hstack([mo.md("Comparison mode"), mode_dropdown], align="center", justify="space-between"),
-                            mo.hstack([mo.md("Show 'Others'"), show_others], align="center", justify="space-between"),
-                        ],
-                        justify="start",
-                        align="stretch",
-                    ),
+                    controls,
                 ],
                 justify="start",
                 align="start",
-
             ),
+            findings2,
         ],
         align="start",
     )
@@ -3073,12 +3197,13 @@ def _():
 
 
 @app.cell
-def _(mo, visual1, visual2, visual3):
-    mo.ui.tabs({
-        "Board sentiment bias map": visual1,
-        "Board visit map and time spent": visual2,
-        "Number of topics, meetings, discussions and plans" :visual3, 
+def _(header, mo, stats, visual1, visual2, visual3):
+    tabs = mo.ui.tabs({
+        "Sentiment Bias Map": visual1,
+        "Travel & Time Analysis": visual2,
+        "Participation Metrics": visual3,
     })
+    mo.vstack([header, stats, tabs])
     return
 
 
