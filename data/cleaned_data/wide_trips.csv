@@ -1,0 +1,537 @@
+trip_id,date,start_time,end_time,source,travelers,places_visited,zones,num_stops
+trip_146,2040-04-06,06:09:00,07:36:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Customs; Himark Postal Station,government; connector,5
+trip_188,2040-06-20,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Tropics Environmental Hub; Centralia Post Office,government; commercial,7
+trip_33,2040-06-04,07:00:00,19:00:00,government,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Lomark Civic Plaza,government,3
+trip_47,2040-04-10,06:38:00,09:31:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark Customs; Himark Postal Station; Anchor Way Grill,government; connector; tourism,5
+trip_177,2040-04-01,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office; Dock & Roll Hall of Fame; Paackland City Hall,government; tourism; commercial,6
+trip_274,2040-05-10,07:06:00,08:57:00,government,Simone Kat,Port Authority Office,government; industrial,2
+trip_20,2040-05-27,06:07:00,13:00:00,government,Simone Kat,Port Grove Customs House; Haacklee Ferry Terminal,government,2
+trip_65,2040-05-23,06:19:00,08:27:00,government,Simone Kat,Port Grove Customs House; The Bait & Stich; Haacklee Ferry Terminal,government; tourism,3
+trip_114,2040-05-14,07:31:00,10:21:00,government,Simone Kat,Lomark Post Office,government,1
+trip_227,2040-07-16,07:28:00,08:00:00,government,Tante Titan,Paackland City Hall,government,1
+trip_224,2040-05-18,07:08:00,07:37:00,government,Carol Limpet,Suna Spit; Himark Customs; Himark City Hall,connector; government; commercial,4
+trip_106,2040-04-19,07:00:00,19:00:00,government,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall; Anchor Way Grill,government; connector; tourism,7
+trip_267,2040-04-08,07:53:00,09:48:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark Postal Station; Himark Customs; Lomark Ferry Terminal; Himark City Hall,government; connector,6
+trip_116,2040-06-01,07:07:00,13:00:00,government,Teddy Goldstein,Suna Spit; Port Authority Office; Lomark Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,6
+trip_22,2040-06-03,07:46:00,09:33:00,government,Simone Kat,Port Grove Customs House,residential; government,2
+trip_138,2040-05-28,07:15:00,08:40:00,government,Simone Kat,Port Grove Customs House,industrial; government,2
+trip_178,2040-06-22,07:00:00,19:00:00,government,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station; The Bait & Stich; Harbor Bistro,government; connector; tourism; commercial,8
+trip_149,2040-05-06,14:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; The Bait & Stich; Port Grove Customs House; Haacklee Inspection Bureau,government; tourism,6
+trip_0,2040-04-24,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_11,2040-07-10,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_12,2040-07-08,10:50:00,11:39:00,government,Simone Kat,Lomark Post Office,government,1
+trip_14,2040-04-22,06:18:00,07:12:00,government,Simone Kat,Port Grove Customs House; Suna Spit,government; connector; residential,3
+trip_38,2040-04-14,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,government; residential,5
+trip_44,2040-06-07,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland City Hall,commercial; government,4
+trip_56,2040-06-05,09:00:00,21:43:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_63,2040-05-14,09:00:00,21:00:00,government,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,tourism; government,4
+trip_76,2040-05-24,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,commercial; government,4
+trip_94,2040-07-15,09:00:00,21:00:00,government,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Eastside Memorial Toll,tourism; government,4
+trip_97,2040-06-05,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_101,2040-07-06,09:00:00,21:00:00,government,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; government,3
+trip_105,2040-06-26,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_115,2040-07-17,09:00:00,21:00:00,government,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; government; residential,4
+trip_118,2040-05-20,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,government; residential,5
+trip_121,2040-06-12,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,5
+trip_122,2040-06-18,07:03:00,07:03:00,government,Simone Kat,,commercial,1
+trip_131,2040-04-02,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Post Office; Paackland Admin Center,commercial; government,5
+trip_145,2040-04-17,09:00:00,21:44:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_155,2040-04-23,06:13:00,08:11:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall,government; connector; residential,4
+trip_157,2040-07-03,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; residential,3
+trip_163,2040-07-29,06:21:00,08:06:00,government,Simone Kat,Anchor Way Grill; Port Grove Customs House; Suna Spit; Himark Postal Station,tourism; government; connector,4
+trip_166,2040-04-30,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_169,2040-04-11,09:00:00,21:00:00,government,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; commercial; government,4
+trip_170,2040-04-15,07:19:00,09:19:00,government,Simone Kat,Port Authority Office,commercial; government,2
+trip_173,2040-06-28,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Eastside Memorial Toll,government; residential,4
+trip_186,2040-06-17,09:00:00,21:00:00,government,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs B,tourism; government,4
+trip_187,2040-06-06,09:00:00,21:00:00,government,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Post Office,tourism; government,4
+trip_204,2040-03-31,06:00:00,07:37:00,government,Simone Kat,Port Grove Customs House; Suna Spit,commercial; government; connector,3
+trip_205,2040-07-03,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_210,2040-07-24,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,commercial; government,4
+trip_215,2040-05-08,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_219,2040-06-10,08:35:00,09:17:00,government,Simone Kat,Port Authority Office,commercial; government,2
+trip_228,2040-04-19,09:00:00,21:00:00,government,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,tourism; government,4
+trip_229,2040-06-24,08:07:00,09:20:00,government,Simone Kat,Port Authority Office,industrial; government,2
+trip_230,2040-05-01,13:00:00,06:46:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_231,2040-06-01,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_233,2040-06-12,07:54:00,07:54:00,government,Simone Kat,,commercial,1
+trip_241,2040-06-26,08:56:00,08:56:00,government,Simone Kat,,commercial,1
+trip_242,2040-07-19,08:23:00,09:02:00,government,Simone Kat,Lomark Civic Plaza,government,1
+trip_243,2040-04-03,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Eastside Memorial Toll,government,5
+trip_244,2040-06-19,09:00:00,21:37:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,government,5
+trip_247,2040-05-07,07:36:00,07:36:00,government,Simone Kat,,commercial,1
+trip_252,2040-04-10,09:36:00,10:45:00,government,Simone Kat,The Bait & Stich; Harbor Bistro; Port Grove Customs House,tourism; commercial; government,3
+trip_262,2040-05-10,09:20:00,09:20:00,government,Simone Kat,,commercial,1
+trip_273,2040-05-13,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,government; residential,4
+trip_285,2040-07-07,08:25:00,11:02:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Customs,government; connector,4
+trip_286,2040-05-22,09:00:00,21:39:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_292,2040-07-26,08:40:00,11:34:00,government,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Postal Station,government; residential; connector,5
+trip_294,2040-07-24,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_300,2040-07-23,07:30:00,10:04:00,government,Simone Kat,The Bait & Stich; Port Grove Customs House; Suna Spit,tourism; commercial; government; connector,4
+trip_307,2040-07-11,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; residential,3
+trip_312,2040-04-10,09:00:00,21:00:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,5
+trip_315,2040-05-15,09:00:00,21:53:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,government,5
+trip_317,2040-04-27,09:12:00,09:12:00,government,Simone Kat,,commercial,1
+trip_322,2040-06-23,09:00:00,21:00:00,government,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,tourism; government,6
+trip_327,2040-07-02,07:07:00,07:07:00,government,Simone Kat,,commercial,1
+trip_338,2040-07-17,09:00:00,21:52:00,government,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_5,2040-07-24,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_8,2040-06-26,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Tropics Environmental Hub,commercial; government,6
+trip_15,2040-04-24,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_16,2040-04-08,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Eastside Memorial Toll,commercial; government; residential,7
+trip_19,2040-04-10,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_23,2040-07-10,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_24,2040-04-07,11:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll; Port Office of Customs A; Paackland Control Office,commercial; government; residential,7
+trip_28,2040-05-10,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government; residential,4
+trip_30,2040-05-17,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_48,2040-06-27,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_50,2040-08-01,09:24:00,09:57:00,government,Carol Limpet,Port Authority Office,commercial; residential; government,3
+trip_52,2040-07-11,09:00:00,21:00:00,government,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_59,2040-05-27,11:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,tourism; commercial; government,5
+trip_64,2040-06-05,09:00:00,21:14:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_67,2040-06-06,09:00:00,21:00:00,government,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_71,2040-05-15,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_72,2040-07-17,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government; residential,5
+trip_73,2040-05-19,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B; Paackland Admin Center,commercial; government,5
+trip_74,2040-05-20,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government; residential,4
+trip_79,2040-07-13,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_81,2040-04-01,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,commercial; government,4
+trip_85,2040-04-17,11:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_92,2040-06-17,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_100,2040-06-01,08:56:00,09:21:00,government,Carol Limpet,,commercial,2
+trip_102,2040-07-30,07:34:00,08:00:00,government,Carol Limpet,Suna Spit,commercial; connector,3
+trip_109,2040-06-19,09:00:00,21:13:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_110,2040-07-17,09:00:00,21:13:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,commercial; government,6
+trip_111,2040-06-29,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,commercial; government; residential,5
+trip_112,2040-07-10,11:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_123,2040-05-28,08:02:00,11:00:00,government,Carol Limpet,Lomark Ferry Terminal,commercial; residential; government,3
+trip_125,2040-04-03,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; South Paackland Post Office,commercial; government; residential,5
+trip_130,2040-05-12,11:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,tourism; commercial; government; residential,7
+trip_137,2040-06-18,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Harbor Green Initiative,commercial; government,5
+trip_139,2040-04-17,09:00:00,21:00:00,government,Carol Limpet,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal,tourism; commercial; government,8
+trip_144,2040-07-15,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; South Paackland City Hall; Centralia Checkpoint Office,commercial; government; residential,6
+trip_153,2040-05-15,13:00:00,06:13:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_154,2040-05-02,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland City Hall,commercial; government,4
+trip_175,2040-06-24,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office; Port Office of Customs B,commercial; government,6
+trip_180,2040-07-04,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,tourism; commercial; government,7
+trip_184,2040-04-19,06:25:00,07:04:00,government,Carol Limpet,Lomark Post Office; Port Grove Customs House; Suna Spit,commercial; government; residential; connector,5
+trip_190,2040-05-08,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_193,2040-07-07,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_195,2040-04-28,11:00:00,21:00:00,government,Carol Limpet,Hula Lounge; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B; Paackland Post Office,commercial; government,6
+trip_197,2040-07-18,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll,commercial; government; residential,5
+trip_201,2040-07-03,13:00:00,06:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_203,2040-04-04,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,4
+trip_207,2040-05-08,09:00:00,21:00:00,government,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office,tourism; commercial; government,5
+trip_218,2040-07-01,11:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,tourism; commercial; government,5
+trip_221,2040-06-22,09:00:00,21:00:00,government,Carol Limpet,Island Brew Cafe; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Tropics Environmental Hub,commercial; government,5
+trip_235,2040-05-03,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government; residential,5
+trip_238,2040-06-30,07:15:00,07:51:00,government,Carol Limpet,Port Grove Customs House; Suna Spit,commercial; government; connector,4
+trip_240,2040-04-30,11:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Eastside Memorial Toll,commercial; government,5
+trip_246,2040-05-06,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,commercial; government; residential,7
+trip_251,2040-04-03,09:00:00,21:17:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,commercial; government,6
+trip_256,2040-05-01,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Admin Center; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_257,2040-07-20,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Eastside Memorial Toll; Paackland Post Office,commercial; government,6
+trip_270,2040-07-08,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,commercial; government,5
+trip_277,2040-06-12,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_282,2040-06-28,06:39:00,07:11:00,government,Carol Limpet,The Bait & Stich; Suna Spit; Port Grove Customs House,tourism; commercial; connector; government,4
+trip_290,2040-05-22,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A,tourism; commercial; government,6
+trip_291,2040-08-02,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,commercial; government,5
+trip_303,2040-07-25,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,commercial; government,4
+trip_309,2040-07-22,09:00:00,21:00:00,government,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Admin Center,commercial; government,5
+trip_311,2040-04-22,09:00:00,21:00:00,government,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll,tourism; commercial; government,5
+trip_323,2040-06-03,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_335,2040-04-24,09:00:00,21:00:00,government,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,4
+trip_1,2040-06-16,06:29:00,12:36:00,government,Seal,Paackland Post Office; Paackland Admin Center,commercial; government,3
+trip_4,2040-07-17,07:50:00,14:42:00,government,Seal,Paackland Post Office; Eastside Memorial Toll,government; residential,3
+trip_27,2040-07-07,08:49:00,14:49:00,government,Seal,Tours Central Ticketing; Paackland Post Office; Port Office of Customs B,tourism; government,3
+trip_40,2040-06-15,07:10:00,07:10:00,government,Seal,,commercial,1
+trip_41,2040-04-10,06:30:00,10:25:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_43,2040-04-04,08:37:00,09:42:00,government,Seal,Port Office of Customs A,government,1
+trip_57,2040-06-05,07:18:00,11:19:00,government,Seal,Dock & Roll Hall of Fame; Port Office of Customs A,tourism; government,2
+trip_61,2040-06-23,07:48:00,11:52:00,government,Seal,Port Office of Customs A,government,1
+trip_70,2040-05-13,14:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall,commercial; government; connector,7
+trip_77,2040-05-15,07:37:00,10:17:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_78,2040-05-22,14:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_83,2040-06-22,06:38:00,08:52:00,government,Seal,Harbor Green Initiative,commercial; government,2
+trip_99,2040-04-26,07:10:00,09:40:00,government,Seal,Port Office of Customs A; Eastside Memorial Toll,government,2
+trip_119,2040-05-16,14:00:00,14:00:00,government,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House,tourism; commercial; government,6
+trip_120,2040-07-21,07:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal,commercial; government,3
+trip_132,2040-04-24,06:59:00,09:19:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_134,2040-05-05,14:00:00,19:00:00,government,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Suna Spit; Himark Customs; Himark City Hall; Port Grove Customs House,tourism; commercial; government; connector,9
+trip_135,2040-06-20,07:48:00,09:32:00,government,Seal,Eastside Memorial Toll; Port Office of Customs A; Paackland Control Office,commercial; government,4
+trip_136,2040-07-09,07:12:00,12:04:00,government,Seal,Dock & Roll Hall of Fame; Eastside Memorial Toll,tourism; government,2
+trip_143,2040-07-24,09:53:00,15:04:00,government,Seal,Dock & Roll Hall of Fame; Port Office of Customs A; Paackland Control Office,tourism; government,3
+trip_158,2040-06-12,09:56:00,15:18:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,3
+trip_179,2040-06-01,06:22:00,06:22:00,government,Seal,Sailor's Bistro,commercial,1
+trip_183,2040-06-11,14:00:00,14:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,government; connector; residential,6
+trip_192,2040-05-17,06:38:00,10:44:00,government,Seal,Tours Central Ticketing; Paackland Admin Center,tourism; government,2
+trip_196,2040-04-03,14:00:00,14:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Lomark Post Office; Port Authority Office,government; residential,5
+trip_200,2040-07-03,08:50:00,12:13:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_211,2040-07-01,09:45:00,09:45:00,government,Seal,,residential,1
+trip_217,2040-04-19,09:16:00,09:16:00,government,Seal,,commercial,1
+trip_248,2040-06-12,14:00:00,19:00:00,government,Seal,Anchor Way Grill; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall,tourism; government; connector,7
+trip_249,2040-05-21,14:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_250,2040-06-07,14:00:00,19:00:00,government,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,tourism; commercial; government; connector,7
+trip_258,2040-05-22,07:19:00,12:42:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; Paackland Post Office,government,3
+trip_259,2040-07-04,06:41:00,12:13:00,government,Seal,Dock & Roll Hall of Fame,tourism; residential,2
+trip_263,2040-04-03,07:18:00,12:12:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; Paackland City Hall,government,3
+trip_264,2040-04-12,08:46:00,09:28:00,government,Seal,Port Office of Customs B; Paackland Ferry Terminal,government,2
+trip_266,2040-05-07,10:57:00,12:57:00,government,Seal,Paackland Control Office,government,1
+trip_268,2040-04-17,07:14:00,10:07:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_271,2040-05-01,07:40:00,11:24:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_275,2040-05-06,08:42:00,14:52:00,government,Seal,Pacific Nature Bureau; Harbor Green Initiative,commercial; government,3
+trip_276,2040-06-27,07:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal,government; residential,3
+trip_283,2040-08-01,09:52:00,11:54:00,government,Seal,Port Office of Customs B,commercial; government,2
+trip_296,2040-04-02,07:45:00,12:05:00,government,Seal,Paackland City Hall,commercial; government,2
+trip_302,2040-07-23,09:07:00,13:31:00,government,Seal,South Paackland Post Office,commercial; government,2
+trip_306,2040-07-10,07:09:00,09:10:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_308,2040-04-08,09:32:00,17:22:00,government,Seal,Dock & Roll Hall of Fame; Port Office of Customs A,tourism; residential; government,3
+trip_314,2040-06-25,07:53:00,10:51:00,government,Seal,Paackland Post Office,commercial; government,2
+trip_319,2040-07-17,08:08:00,12:53:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_320,2040-04-27,14:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_328,2040-06-05,07:22:00,11:07:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,3
+trip_334,2040-06-19,07:05:00,11:23:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_337,2040-06-26,08:40:00,12:58:00,government,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_341,2040-07-12,07:00:00,19:00:00,government,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,commercial; government; connector,6
+trip_0,2040-04-24,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_1,2040-06-16,06:29:00,12:36:00,journalist,Seal,Paackland Post Office; Paackland Admin Center,commercial; government,3
+trip_2,2040-06-28,08:23:00,08:23:00,journalist,Ed Helpsford,,commercial,1
+trip_3,2040-06-06,07:28:00,07:59:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Harborside Mall; The Bait & Stich,connector; government; commercial; tourism,4
+trip_4,2040-07-17,07:50:00,14:42:00,journalist,Seal,Paackland Post Office; Eastside Memorial Toll,government; residential,3
+trip_5,2040-07-24,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_6,2040-05-15,08:44:00,10:21:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; Himark Customs; Himark City Hall,government; connector; commercial,5
+trip_7,2040-07-17,09:31:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Admin Center; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_8,2040-06-26,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Tropics Environmental Hub,commercial; government,6
+trip_9,2040-04-24,08:56:00,11:40:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_10,2040-05-31,06:07:00,07:57:00,journalist,Teddy Goldstein,Suna Spit; Port Authority Office,connector; government; industrial,3
+trip_11,2040-07-10,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_12,2040-07-08,10:50:00,11:39:00,journalist,Simone Kat,Lomark Post Office,government,1
+trip_13,2040-07-10,09:00:00,21:36:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_14,2040-04-22,06:18:00,07:12:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit,government; connector; residential,3
+trip_15,2040-04-24,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_16,2040-04-08,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Eastside Memorial Toll,commercial; government; residential,7
+trip_17,2040-05-02,06:59:00,07:36:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; Himark City Hall; Port Grove Customs House,government; connector; residential,5
+trip_18,2040-05-17,07:42:00,08:35:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit,government; connector; residential,3
+trip_19,2040-04-10,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_20,2040-05-27,06:07:00,13:00:00,journalist,Simone Kat,Port Grove Customs House; Haacklee Ferry Terminal,government,2
+trip_21,2040-06-05,11:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office; Paackland City Hall,government,5
+trip_22,2040-06-03,07:46:00,09:33:00,journalist,Simone Kat,Port Grove Customs House,residential; government,2
+trip_23,2040-07-10,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,commercial; government,5
+trip_24,2040-04-07,11:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll; Port Office of Customs A; Paackland Control Office,commercial; government; residential,7
+trip_25,2040-06-17,09:32:00,10:21:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Customs,tourism; government,2
+trip_26,2040-05-01,09:17:00,13:00:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; Tours Central Ticketing,government; tourism,3
+trip_27,2040-07-07,08:49:00,14:49:00,journalist,Seal,Tours Central Ticketing; Paackland Post Office; Port Office of Customs B,tourism; government,3
+trip_28,2040-05-10,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government; residential,4
+trip_29,2040-07-16,09:37:00,12:15:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; Himark Postal Station; Anchor Way Grill; Himark City Hall,government; connector; tourism,5
+trip_30,2040-05-17,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_31,2040-07-03,08:23:00,06:30:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_32,2040-06-06,07:13:00,09:01:00,journalist,Tante Titan,Centralia Post Office; Harbor Green Initiative,government; commercial,3
+trip_33,2040-06-04,07:00:00,19:00:00,journalist,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Lomark Civic Plaza,government,3
+trip_34,2040-07-01,09:14:00,09:55:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House,connector; government; industrial,3
+trip_35,2040-04-04,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal,government; commercial,3
+trip_36,2040-05-25,06:34:00,08:24:00,journalist,Tante Titan,Eastside Memorial Toll; Dock & Roll Hall of Fame; Paackland Post Office,government; tourism,3
+trip_37,2040-06-20,06:23:00,07:20:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; The Bait & Stich,government; connector; tourism; commercial,4
+trip_38,2040-04-14,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,government; residential,5
+trip_39,2040-04-13,08:40:00,09:44:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Postal Station,tourism; government,2
+trip_40,2040-06-15,07:10:00,07:10:00,journalist,Seal,,commercial,1
+trip_41,2040-04-10,06:30:00,10:25:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_42,2040-06-09,06:38:00,08:23:00,journalist,Tante Titan,Paackland Post Office; Port Office of Customs B,government; commercial,3
+trip_43,2040-04-04,08:37:00,09:42:00,journalist,Seal,Port Office of Customs A,government,1
+trip_44,2040-06-07,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland City Hall,commercial; government,4
+trip_45,2040-06-16,11:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Dock & Roll Hall of Fame; Paackland City Hall,government; tourism; commercial,5
+trip_46,2040-05-08,07:45:00,09:59:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_47,2040-04-10,06:38:00,09:31:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark Customs; Himark Postal Station; Anchor Way Grill,government; connector; tourism,5
+trip_48,2040-06-27,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_49,2040-06-12,08:34:00,06:28:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_50,2040-08-01,09:24:00,09:57:00,journalist,Carol Limpet,Port Authority Office,commercial; residential; government,3
+trip_51,2040-06-25,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Tours Central Ticketing,government; tourism; commercial,4
+trip_52,2040-07-11,09:00:00,21:00:00,journalist,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_53,2040-04-03,08:28:00,06:28:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_54,2040-07-10,09:08:00,10:06:00,journalist,Ed Helpsford,Lomark Post Office,government; commercial,2
+trip_55,2040-05-15,07:39:00,10:47:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_56,2040-06-05,09:00:00,21:43:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_57,2040-06-05,07:18:00,11:19:00,journalist,Seal,Dock & Roll Hall of Fame; Port Office of Customs A,tourism; government,2
+trip_58,2040-05-15,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B; Paackland Ferry Terminal; Lomark Ferry Terminal,government,7
+trip_59,2040-05-27,11:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,tourism; commercial; government,5
+trip_60,2040-04-06,08:40:00,09:32:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House,connector; government; residential,3
+trip_61,2040-06-23,07:48:00,11:52:00,journalist,Seal,Port Office of Customs A,government,1
+trip_62,2040-05-03,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal,government; commercial,3
+trip_63,2040-05-14,09:00:00,21:00:00,journalist,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,tourism; government,4
+trip_64,2040-06-05,09:00:00,21:14:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_65,2040-05-23,06:19:00,08:27:00,journalist,Simone Kat,Port Grove Customs House; The Bait & Stich; Haacklee Ferry Terminal,government; tourism,3
+trip_66,2040-07-10,08:25:00,06:35:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_67,2040-06-06,09:00:00,21:00:00,journalist,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_68,2040-05-27,08:16:00,09:55:00,journalist,Tante Titan,Tours Central Ticketing,tourism; commercial,2
+trip_69,2040-04-17,09:00:00,21:54:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_70,2040-05-13,14:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall,commercial; government; connector,7
+trip_71,2040-05-15,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_72,2040-07-17,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government; residential,5
+trip_73,2040-05-19,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B; Paackland Admin Center,commercial; government,5
+trip_74,2040-05-20,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government; residential,4
+trip_75,2040-06-14,07:42:00,08:26:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal,connector; government,3
+trip_76,2040-05-24,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,commercial; government,4
+trip_77,2040-05-15,07:37:00,10:17:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_78,2040-05-22,14:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_79,2040-07-13,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government,4
+trip_80,2040-04-23,08:10:00,10:21:00,journalist,Ed Helpsford,Lomark Post Office; Lomark Civic Plaza,government,2
+trip_81,2040-04-01,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,commercial; government,4
+trip_82,2040-06-12,08:48:00,08:48:00,journalist,Ed Helpsford,,residential,1
+trip_83,2040-06-22,06:38:00,08:52:00,journalist,Seal,Harbor Green Initiative,commercial; government,2
+trip_84,2040-05-10,07:20:00,08:09:00,journalist,Tante Titan,Dock & Roll Hall of Fame,tourism,1
+trip_85,2040-04-17,11:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_86,2040-06-16,09:17:00,09:33:00,journalist,Tante Titan,Port Office of Customs B,government,1
+trip_87,2040-04-24,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Lomark Ferry Terminal,government,7
+trip_88,2040-04-08,07:43:00,08:51:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Customs; Suna Spit; The Bait & Stich,tourism; government; connector,4
+trip_89,2040-05-19,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office; Port Office of Customs A,government; commercial,5
+trip_90,2040-07-09,08:42:00,09:28:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Customs; Himark City Hall,tourism; government,3
+trip_91,2040-04-01,07:57:00,08:55:00,journalist,Teddy Goldstein,Anchor Way Grill,tourism; commercial,2
+trip_92,2040-06-17,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_93,2040-07-27,08:29:00,10:15:00,journalist,Tante Titan,Paackland Post Office; Tours Central Ticketing; Port Office of Customs B,government; tourism,3
+trip_94,2040-07-15,09:00:00,21:00:00,journalist,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Eastside Memorial Toll,tourism; government,4
+trip_95,2040-07-26,07:42:00,08:51:00,journalist,Teddy Goldstein,Suna Spit; Lomark Post Office,connector; government; residential,3
+trip_96,2040-04-10,08:25:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_97,2040-06-05,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_98,2040-05-24,07:00:00,19:00:00,journalist,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal,government,2
+trip_99,2040-04-26,07:10:00,09:40:00,journalist,Seal,Port Office of Customs A; Eastside Memorial Toll,government,2
+trip_100,2040-06-01,08:56:00,09:21:00,journalist,Carol Limpet,,commercial,2
+trip_101,2040-07-06,09:00:00,21:00:00,journalist,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; government,3
+trip_102,2040-07-30,07:34:00,08:00:00,journalist,Carol Limpet,Suna Spit,commercial; connector,3
+trip_103,2040-07-17,08:42:00,11:13:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_104,2040-06-05,09:59:00,06:30:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_105,2040-06-26,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_106,2040-04-19,07:00:00,19:00:00,journalist,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall; Anchor Way Grill,government; connector; tourism,7
+trip_107,2040-05-29,07:16:00,08:08:00,journalist,Tante Titan,Tours Central Ticketing,tourism,1
+trip_108,2040-07-20,09:31:00,11:30:00,journalist,Tante Titan,Paackland Post Office; Dock & Roll Hall of Fame; Port Office of Customs A; Paackland Control Office,government; tourism,4
+trip_109,2040-06-19,09:00:00,21:13:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_110,2040-07-17,09:00:00,21:13:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,commercial; government,6
+trip_111,2040-06-29,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,commercial; government; residential,5
+trip_112,2040-07-10,11:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government; residential,4
+trip_113,2040-04-24,08:16:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Post Office; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_114,2040-05-14,07:31:00,10:21:00,journalist,Simone Kat,Lomark Post Office,government,1
+trip_115,2040-07-17,09:00:00,21:00:00,journalist,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; government; residential,4
+trip_116,2040-06-01,07:07:00,13:00:00,journalist,Teddy Goldstein,Suna Spit; Port Authority Office; Lomark Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,6
+trip_117,2040-04-03,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Post Office; Paackland Ferry Terminal; Lomark Ferry Terminal,government,7
+trip_118,2040-05-20,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,government; residential,5
+trip_119,2040-05-16,14:00:00,14:00:00,journalist,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House,tourism; commercial; government,6
+trip_120,2040-07-21,07:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal,commercial; government,3
+trip_121,2040-06-12,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,5
+trip_122,2040-06-18,07:03:00,07:03:00,journalist,Simone Kat,,commercial,1
+trip_123,2040-05-28,08:02:00,11:00:00,journalist,Carol Limpet,Lomark Ferry Terminal,commercial; residential; government,3
+trip_124,2040-04-10,09:03:00,09:43:00,journalist,Tante Titan,Tours Central Ticketing,tourism,1
+trip_125,2040-04-03,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; South Paackland Post Office,commercial; government; residential,5
+trip_126,2040-06-26,07:18:00,10:36:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_127,2040-05-15,09:11:00,09:53:00,journalist,Teddy Goldstein,Suna Spit,connector; industrial,2
+trip_128,2040-06-20,06:36:00,07:02:00,journalist,Tante Titan,Paackland Post Office,government; residential,2
+trip_129,2040-04-13,09:43:00,10:18:00,journalist,Tante Titan,Tours Central Ticketing,tourism,1
+trip_130,2040-05-12,11:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office,tourism; commercial; government; residential,7
+trip_131,2040-04-02,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Post Office; Paackland Admin Center,commercial; government,5
+trip_132,2040-04-24,06:59:00,09:19:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_133,2040-07-24,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Centralia Checkpoint Office,government,5
+trip_134,2040-05-05,14:00:00,19:00:00,journalist,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Suna Spit; Himark Customs; Himark City Hall; Port Grove Customs House,tourism; commercial; government; connector,9
+trip_135,2040-06-20,07:48:00,09:32:00,journalist,Seal,Eastside Memorial Toll; Port Office of Customs A; Paackland Control Office,commercial; government,4
+trip_136,2040-07-09,07:12:00,12:04:00,journalist,Seal,Dock & Roll Hall of Fame; Eastside Memorial Toll,tourism; government,2
+trip_137,2040-06-18,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Harbor Green Initiative,commercial; government,5
+trip_138,2040-05-28,07:15:00,08:40:00,journalist,Simone Kat,Port Grove Customs House,industrial; government,2
+trip_139,2040-04-17,09:00:00,21:00:00,journalist,Carol Limpet,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal,tourism; commercial; government,8
+trip_140,2040-06-12,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_141,2040-06-11,08:53:00,09:53:00,journalist,Teddy Goldstein,Suna Spit; Port Authority Office,connector; commercial; government,3
+trip_142,2040-04-15,09:01:00,10:52:00,journalist,Tante Titan,South Paackland City Hall,residential; government,2
+trip_143,2040-07-24,09:53:00,15:04:00,journalist,Seal,Dock & Roll Hall of Fame; Port Office of Customs A; Paackland Control Office,tourism; government,3
+trip_144,2040-07-15,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; South Paackland City Hall; Centralia Checkpoint Office,commercial; government; residential,6
+trip_145,2040-04-17,09:00:00,21:44:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_146,2040-04-06,06:09:00,07:36:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Customs; Himark Postal Station,government; connector,5
+trip_147,2040-06-02,06:59:00,08:38:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Haacklee Inspection Bureau,connector; government,3
+trip_148,2040-06-14,07:05:00,09:24:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; Anchor Way Grill,government; connector; tourism; commercial,4
+trip_149,2040-05-06,14:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; The Bait & Stich; Port Grove Customs House; Haacklee Inspection Bureau,government; tourism,6
+trip_150,2040-06-19,06:51:00,09:25:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; Paackland Post Office,government,3
+trip_151,2040-05-21,08:19:00,09:17:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Himark Customs; Anchor Way Grill,connector; government; tourism,4
+trip_152,2040-04-02,08:53:00,09:21:00,journalist,Tante Titan,Harbor Green Initiative,government; commercial,2
+trip_153,2040-05-15,13:00:00,06:13:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,commercial; government,8
+trip_154,2040-05-02,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland City Hall,commercial; government,4
+trip_155,2040-04-23,06:13:00,08:11:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall,government; connector; residential,4
+trip_156,2040-07-24,06:38:00,08:04:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; Himark City Hall; Harborland Mall,government; connector; commercial,4
+trip_157,2040-07-03,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; residential,3
+trip_158,2040-06-12,09:56:00,15:18:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,3
+trip_159,2040-04-12,08:05:00,10:12:00,journalist,Tante Titan,Port Office of Customs B; Tours Central Ticketing,residential; government; tourism,3
+trip_160,2040-05-21,07:20:00,08:44:00,journalist,Tante Titan,Port Office of Customs B; Tours Central Ticketing,government; tourism,2
+trip_161,2040-07-06,09:39:00,10:13:00,journalist,Teddy Goldstein,Suna Spit,connector; commercial,2
+trip_162,2040-07-21,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office; Harbor Green Initiative,government; commercial,5
+trip_163,2040-07-29,06:21:00,08:06:00,journalist,Simone Kat,Anchor Way Grill; Port Grove Customs House; Suna Spit; Himark Postal Station,tourism; government; connector,4
+trip_164,2040-06-28,09:45:00,11:09:00,journalist,Tante Titan,Eastside Memorial Toll; Dock & Roll Hall of Fame,government; tourism,2
+trip_165,2040-04-29,08:29:00,09:44:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark City Hall; Suna Spit,tourism; government; connector,3
+trip_166,2040-04-30,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_167,2040-06-17,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B; Paackland Post Office,government,4
+trip_168,2040-04-24,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Dock & Roll Hall of Fame,government; residential; tourism,4
+trip_169,2040-04-11,09:00:00,21:00:00,journalist,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal,tourism; commercial; government,4
+trip_170,2040-04-15,07:19:00,09:19:00,journalist,Simone Kat,Port Authority Office,commercial; government,2
+trip_171,2040-05-30,06:34:00,07:29:00,journalist,Tante Titan,Tours Central Ticketing,tourism,1
+trip_172,2040-06-26,09:00:00,21:48:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza; Lomark Post Office,government,6
+trip_173,2040-06-28,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Eastside Memorial Toll,government; residential,4
+trip_174,2040-05-02,07:16:00,08:30:00,journalist,Teddy Goldstein,Suna Spit; Port Authority Office,connector; commercial; government,3
+trip_175,2040-06-24,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office; Port Office of Customs B,commercial; government,6
+trip_176,2040-05-17,09:17:00,09:58:00,journalist,Tante Titan,Dock & Roll Hall of Fame,tourism,1
+trip_177,2040-04-01,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office; Dock & Roll Hall of Fame; Paackland City Hall,government; tourism; commercial,6
+trip_178,2040-06-22,07:00:00,19:00:00,journalist,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station; The Bait & Stich; Harbor Bistro,government; connector; tourism; commercial,8
+trip_179,2040-06-01,06:22:00,06:22:00,journalist,Seal,Sailor's Bistro,commercial,1
+trip_180,2040-07-04,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,tourism; commercial; government,7
+trip_181,2040-05-22,09:27:00,12:22:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_182,2040-05-08,06:25:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Dock & Roll Hall of Fame; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_183,2040-06-11,14:00:00,14:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,government; connector; residential,6
+trip_184,2040-04-19,06:25:00,07:04:00,journalist,Carol Limpet,Lomark Post Office; Port Grove Customs House; Suna Spit,commercial; government; residential; connector,5
+trip_185,2040-04-10,07:09:00,09:45:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; Centralia Checkpoint Office,government,3
+trip_186,2040-06-17,09:00:00,21:00:00,journalist,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Port Office of Customs B,tourism; government,4
+trip_187,2040-06-06,09:00:00,21:00:00,journalist,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Post Office,tourism; government,4
+trip_188,2040-06-20,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Tropics Environmental Hub; Centralia Post Office,government; commercial,7
+trip_189,2040-06-04,07:05:00,07:05:00,journalist,Ed Helpsford,Port Grove Ferry Terminal,government,1
+trip_190,2040-05-08,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_191,2040-07-01,08:44:00,09:42:00,journalist,Tante Titan,South Paackland Post Office,commercial; government,2
+trip_192,2040-05-17,06:38:00,10:44:00,journalist,Seal,Tours Central Ticketing; Paackland Admin Center,tourism; government,2
+trip_193,2040-07-07,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal,commercial; government,4
+trip_194,2040-06-09,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Dock & Roll Hall of Fame; Port Office of Customs A; Paackland Control Office,government; tourism; commercial,6
+trip_195,2040-04-28,11:00:00,21:00:00,journalist,Carol Limpet,Hula Lounge; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B; Paackland Post Office,commercial; government,6
+trip_196,2040-04-03,14:00:00,14:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Lomark Post Office; Port Authority Office,government; residential,5
+trip_197,2040-07-18,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll,commercial; government; residential,5
+trip_198,2040-06-05,07:17:00,10:33:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_199,2040-07-24,08:18:00,10:28:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_200,2040-07-03,08:50:00,12:13:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_201,2040-07-03,13:00:00,06:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs A; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_202,2040-04-15,09:24:00,10:30:00,journalist,Teddy Goldstein,Suna Spit; Lomark Civic Plaza,connector; government; commercial,3
+trip_203,2040-04-04,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,4
+trip_204,2040-03-31,06:00:00,07:37:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit,commercial; government; connector,3
+trip_205,2040-07-03,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_206,2040-07-03,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Dock & Roll Hall of Fame; Paackland Ferry Terminal; Lomark Ferry Terminal,government; tourism,7
+trip_207,2040-05-08,09:00:00,21:00:00,journalist,Carol Limpet,Tours Central Ticketing; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Post Office,tourism; commercial; government,5
+trip_208,2040-05-07,07:25:00,08:11:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House,connector; government; residential,3
+trip_209,2040-04-26,06:17:00,07:06:00,journalist,Tante Titan,Dock & Roll Hall of Fame,tourism,1
+trip_210,2040-07-24,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,commercial; government,4
+trip_211,2040-07-01,09:45:00,09:45:00,journalist,Seal,,residential,1
+trip_212,2040-07-11,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Checkpoint Office,government; residential,4
+trip_213,2040-07-19,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A,government; residential,5
+trip_214,2040-06-05,07:36:00,07:36:00,journalist,Tante Titan,,commercial,1
+trip_215,2040-05-08,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_216,2040-04-30,07:06:00,07:42:00,journalist,Tante Titan,Centralia Post Office,government; commercial,2
+trip_217,2040-04-19,09:16:00,09:16:00,journalist,Seal,,commercial,1
+trip_218,2040-07-01,11:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A,tourism; commercial; government,5
+trip_219,2040-06-10,08:35:00,09:17:00,journalist,Simone Kat,Port Authority Office,commercial; government,2
+trip_220,2040-06-24,07:38:00,10:32:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit; The Bait & Stich; Port Grove Customs House,government; connector; tourism; commercial,5
+trip_221,2040-06-22,09:00:00,21:00:00,journalist,Carol Limpet,Island Brew Cafe; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Tropics Environmental Hub,commercial; government,5
+trip_222,2040-06-25,09:57:00,10:38:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Postal Station,tourism; government,2
+trip_223,2040-05-22,09:13:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Admin Center; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_224,2040-05-18,07:08:00,07:37:00,journalist,Carol Limpet,Suna Spit; Himark Customs; Himark City Hall,connector; government; commercial,4
+trip_225,2040-06-19,13:00:00,06:50:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_226,2040-05-09,07:48:00,08:44:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit,government; connector,2
+trip_227,2040-07-16,07:28:00,08:00:00,journalist,Tante Titan,Paackland City Hall,government,1
+trip_228,2040-04-19,09:00:00,21:00:00,journalist,Simone Kat,Tours Central Ticketing; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Admin Center,tourism; government,4
+trip_229,2040-06-24,08:07:00,09:20:00,journalist,Simone Kat,Port Authority Office,industrial; government,2
+trip_230,2040-05-01,13:00:00,06:46:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_231,2040-06-01,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_232,2040-04-18,07:22:00,09:01:00,journalist,Ed Helpsford,Lomark Post Office; Suna Spit,government; commercial; connector,3
+trip_233,2040-06-12,07:54:00,07:54:00,journalist,Simone Kat,,commercial,1
+trip_234,2040-06-27,06:47:00,07:55:00,journalist,Ed Helpsford,Lomark Post Office,government; commercial,2
+trip_235,2040-05-03,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal,tourism; commercial; government; residential,5
+trip_236,2040-06-21,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Centralia Council Hall,government; commercial,6
+trip_237,2040-04-01,08:55:00,09:30:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center,government; commercial,3
+trip_238,2040-06-30,07:15:00,07:51:00,journalist,Carol Limpet,Port Grove Customs House; Suna Spit,commercial; government; connector,4
+trip_239,2040-07-10,08:59:00,12:04:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_240,2040-04-30,11:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Eastside Memorial Toll,commercial; government,5
+trip_241,2040-06-26,08:56:00,08:56:00,journalist,Simone Kat,,commercial,1
+trip_242,2040-07-19,08:23:00,09:02:00,journalist,Simone Kat,Lomark Civic Plaza,government,1
+trip_243,2040-04-03,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Eastside Memorial Toll,government,5
+trip_244,2040-06-19,09:00:00,21:37:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,government,5
+trip_245,2040-05-27,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Paackland Control Office; Dock & Roll Hall of Fame,government; tourism,5
+trip_246,2040-05-06,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,commercial; government; residential,7
+trip_247,2040-05-07,07:36:00,07:36:00,journalist,Simone Kat,,commercial,1
+trip_248,2040-06-12,14:00:00,19:00:00,journalist,Seal,Anchor Way Grill; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark City Hall,tourism; government; connector,7
+trip_249,2040-05-21,14:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_250,2040-06-07,14:00:00,19:00:00,journalist,Seal,The Bait & Stich; South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,tourism; commercial; government; connector,7
+trip_251,2040-04-03,09:00:00,21:17:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,commercial; government,6
+trip_252,2040-04-10,09:36:00,10:45:00,journalist,Simone Kat,The Bait & Stich; Harbor Bistro; Port Grove Customs House,tourism; commercial; government,3
+trip_253,2040-04-01,07:37:00,09:26:00,journalist,Ed Helpsford,Lomark Post Office,residential; government,2
+trip_254,2040-05-18,07:25:00,09:04:00,journalist,Ed Helpsford,Lomark Post Office; Lomark Civic Plaza,residential; government,3
+trip_255,2040-05-08,09:00:00,21:55:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_256,2040-05-01,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Admin Center; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_257,2040-07-20,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs A; Eastside Memorial Toll; Paackland Post Office,commercial; government,6
+trip_258,2040-05-22,07:19:00,12:42:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; Paackland Post Office,government,3
+trip_259,2040-07-04,06:41:00,12:13:00,journalist,Seal,Dock & Roll Hall of Fame,tourism; residential,2
+trip_260,2040-08-01,07:37:00,07:37:00,journalist,Tante Titan,,commercial,1
+trip_261,2040-07-03,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; commercial,3
+trip_262,2040-05-10,09:20:00,09:20:00,journalist,Simone Kat,,commercial,1
+trip_263,2040-04-03,07:18:00,12:12:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; Paackland City Hall,government,3
+trip_264,2040-04-12,08:46:00,09:28:00,journalist,Seal,Port Office of Customs B; Paackland Ferry Terminal,government,2
+trip_265,2040-06-13,08:07:00,09:33:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Customs,tourism; government; commercial,3
+trip_266,2040-05-07,10:57:00,12:57:00,journalist,Seal,Paackland Control Office,government,1
+trip_267,2040-04-08,07:53:00,09:48:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark Postal Station; Himark Customs; Lomark Ferry Terminal; Himark City Hall,government; connector,6
+trip_268,2040-04-17,07:14:00,10:07:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_269,2040-07-12,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,government; commercial,4
+trip_270,2040-07-08,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,commercial; government,5
+trip_271,2040-05-01,07:40:00,11:24:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_272,2040-07-15,08:22:00,09:17:00,journalist,Teddy Goldstein,Suna Spit,connector; commercial,2
+trip_273,2040-05-13,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,government; residential,4
+trip_274,2040-05-10,07:06:00,08:57:00,journalist,Simone Kat,Port Authority Office,government; industrial,2
+trip_275,2040-05-06,08:42:00,14:52:00,journalist,Seal,Pacific Nature Bureau; Harbor Green Initiative,commercial; government,3
+trip_276,2040-06-27,07:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal,government; residential,3
+trip_277,2040-06-12,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Lomark Ferry Terminal,commercial; government,8
+trip_278,2040-05-29,08:07:00,08:59:00,journalist,Teddy Goldstein,Suna Spit,connector; commercial,2
+trip_279,2040-04-17,08:56:00,10:18:00,journalist,Tante Titan,Centralia Checkpoint Office,residential; government,2
+trip_280,2040-06-22,08:36:00,09:50:00,journalist,Teddy Goldstein,Suna Spit; Lomark Post Office,connector; government; commercial,3
+trip_281,2040-04-17,08:41:00,06:24:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,connector; government,10
+trip_282,2040-06-28,06:39:00,07:11:00,journalist,Carol Limpet,The Bait & Stich; Suna Spit; Port Grove Customs House,tourism; commercial; connector; government,4
+trip_283,2040-08-01,09:52:00,11:54:00,journalist,Seal,Port Office of Customs B,commercial; government,2
+trip_284,2040-04-08,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Tours Central Ticketing,government; tourism,3
+trip_285,2040-07-07,08:25:00,11:02:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Customs,government; connector,4
+trip_286,2040-05-22,09:00:00,21:39:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Post Office,government,5
+trip_287,2040-05-25,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,government,3
+trip_288,2040-04-22,07:39:00,08:34:00,journalist,Teddy Goldstein,Suna Spit; Haacklee Ferry Terminal,connector; government,2
+trip_289,2040-05-31,06:52:00,08:44:00,journalist,Ed Helpsford,Lomark Post Office,government; commercial,2
+trip_290,2040-05-22,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A,tourism; commercial; government,6
+trip_291,2040-08-02,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Centralia Post Office,commercial; government,5
+trip_292,2040-07-26,08:40:00,11:34:00,journalist,Simone Kat,Port Grove Customs House; Suna Spit; Himark City Hall; Himark Postal Station,government; residential; connector,5
+trip_293,2040-07-19,09:24:00,10:20:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; The Bait & Stich,connector; government; tourism,4
+trip_294,2040-07-24,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_295,2040-07-18,07:39:00,08:48:00,journalist,Tante Titan,Paackland Post Office; Dock & Roll Hall of Fame,government; tourism,2
+trip_296,2040-04-02,07:45:00,12:05:00,journalist,Seal,Paackland City Hall,commercial; government,2
+trip_297,2040-06-24,06:29:00,07:09:00,journalist,Teddy Goldstein,Anchor Way Grill; Himark Customs; Himark Ferry Terminal,tourism; government,3
+trip_298,2040-04-10,09:00:00,21:54:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_299,2040-07-30,08:21:00,09:06:00,journalist,Ed Helpsford,Port Authority Office,government; commercial,2
+trip_300,2040-07-23,07:30:00,10:04:00,journalist,Simone Kat,The Bait & Stich; Port Grove Customs House; Suna Spit,tourism; commercial; government; connector,4
+trip_301,2040-05-05,07:00:00,19:00:00,journalist,Tante Titan,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,government; connector; commercial,6
+trip_302,2040-07-23,09:07:00,13:31:00,journalist,Seal,South Paackland Post Office,commercial; government,2
+trip_303,2040-07-25,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Port Office of Customs B,commercial; government,4
+trip_304,2040-07-18,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; commercial,3
+trip_305,2040-05-01,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Lomark Ferry Terminal,government,7
+trip_306,2040-07-10,07:09:00,09:10:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_307,2040-07-11,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal,government; residential,3
+trip_308,2040-04-08,09:32:00,17:22:00,journalist,Seal,Dock & Roll Hall of Fame; Port Office of Customs A,tourism; residential; government,3
+trip_309,2040-07-22,09:00:00,21:00:00,journalist,Carol Limpet,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland Admin Center,commercial; government,5
+trip_310,2040-07-17,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_311,2040-04-22,09:00:00,21:00:00,journalist,Carol Limpet,Dock & Roll Hall of Fame; Lomark Ferry Terminal; Paackland Ferry Terminal; Eastside Memorial Toll,tourism; commercial; government,5
+trip_312,2040-04-10,09:00:00,21:00:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,5
+trip_313,2040-07-27,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland City Hall,government; residential,4
+trip_314,2040-06-25,07:53:00,10:51:00,journalist,Seal,Paackland Post Office,commercial; government,2
+trip_315,2040-05-15,09:00:00,21:53:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Lomark Civic Plaza,government,5
+trip_316,2040-05-22,09:00:00,21:55:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_317,2040-04-27,09:12:00,09:12:00,journalist,Simone Kat,,commercial,1
+trip_318,2040-06-05,09:00:00,21:00:00,journalist,Ed Helpsford,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center,government,4
+trip_319,2040-07-17,08:08:00,12:53:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_320,2040-04-27,14:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit; Himark Postal Station,commercial; government; connector,7
+trip_321,2040-05-01,09:32:00,11:28:00,journalist,Ed Helpsford,Port Authority Office,commercial; government,2
+trip_322,2040-06-23,09:00:00,21:00:00,journalist,Simone Kat,Dock & Roll Hall of Fame; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Paackland Control Office; Port Office of Customs A; Paackland City Hall,tourism; government,6
+trip_323,2040-06-03,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,3
+trip_324,2040-07-04,06:59:00,08:36:00,journalist,Ed Helpsford,Port Authority Office,industrial; government,2
+trip_325,2040-05-04,06:36:00,07:46:00,journalist,Teddy Goldstein,Suna Spit; Port Authority Office,connector; government,2
+trip_326,2040-05-24,09:00:00,21:00:00,journalist,Ed Helpsford,Lomark Ferry Terminal; Paackland Ferry Terminal; Paackland City Hall; Paackland Control Office,government,4
+trip_327,2040-07-02,07:07:00,07:07:00,journalist,Simone Kat,,commercial,1
+trip_328,2040-06-05,07:22:00,11:07:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; Port Office of Customs B,government,3
+trip_329,2040-05-15,09:56:00,09:56:00,journalist,Tante Titan,,commercial,1
+trip_330,2040-08-02,08:07:00,08:43:00,journalist,Tante Titan,Paackland Admin Center,commercial; government,2
+trip_331,2040-05-15,06:40:00,03:00:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Port Grove Ferry Terminal; Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Control Office; Paackland Ferry Terminal; Himark Ferry Terminal; Himark Customs; Anchor Way Grill,connector; government; tourism,12
+trip_332,2040-05-06,08:44:00,11:10:00,journalist,Ed Helpsford,Lomark Post Office; Lomark Civic Plaza,government; residential,3
+trip_333,2040-04-27,06:59:00,06:59:00,journalist,Tante Titan,Harborfront Boutiques,commercial,1
+trip_334,2040-06-19,07:05:00,11:23:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center; South Paackland Post Office,government,3
+trip_335,2040-04-24,09:00:00,21:00:00,journalist,Carol Limpet,Haacklee Ferry Terminal; South Paackland Ferry Terminal,commercial; government,4
+trip_336,2040-06-23,08:05:00,09:35:00,journalist,Ed Helpsford,Lomark Post Office,government; commercial,2
+trip_337,2040-06-26,08:40:00,12:58:00,journalist,Seal,Pacific Nature Bureau; Jordan Administrative Center,government,2
+trip_338,2040-07-17,09:00:00,21:52:00,journalist,Simone Kat,Haacklee Ferry Terminal; South Paackland Ferry Terminal; Pacific Nature Bureau; Jordan Administrative Center; Paackland Ferry Terminal; Lomark Ferry Terminal; Port Authority Office,government,7
+trip_339,2040-07-03,07:47:00,11:10:00,journalist,Tante Titan,Pacific Nature Bureau; Jordan Administrative Center; South Paackland City Hall,government,3
+trip_340,2040-07-04,07:37:00,08:58:00,journalist,Teddy Goldstein,Suna Spit; Port Grove Customs House; Himark City Hall; Anchor Way Grill,connector; government; tourism,4
+trip_341,2040-07-12,07:00:00,19:00:00,journalist,Seal,South Paackland Ferry Terminal; Haacklee Ferry Terminal; Port Grove Ferry Terminal; Port Grove Customs House; Suna Spit,commercial; government; connector,6

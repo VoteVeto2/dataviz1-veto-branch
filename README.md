@@ -1,35 +1,71 @@
-# g0r72a_Data_Peiyang_2526
+# COOTEFOO Board Investigation Dashboard
+
+VAST Challenge 2025 MC2 — Interactive investigation of the Commission on Overseeing the Economic Future of Oceanus.
+
+```bash
+uv run marimo run index.py
+```
 
 ## Background
 
-Antwerp has enjoyed a relatively simple, fishing-based economy for decades. However, in recent times, tourism has greatly expanded and resulted in significant changes. The local government set up an oversight board - Commission on Overseeing the Economic Future of Oceanus (COOTEFOO) - to monitor the current economy and advise how to prepare for the future.
+Oceanus has enjoyed a relatively simple, fishing-based economy for decades. Tourism has recently expanded and created tension. The local government set up COOTEFOO to monitor the economy and advise on the future.
 
-## Accusations
+Two lobby groups accuse the board of opposite biases:
 
-**Fishing is Living and Heritage (FILAH)** accuses the board of being biased toward the new tourism economy and inappropriately attending to the potential in those ventures, ignoring the historical powerhouse of the economy: Getting lots of fish out of the water and off to hungry people. They accuse some COOTEFOO members of bias against fishing.
+- **FILAH** (Fishing is Living and Heritage) claims the board favors tourism and neglects the fishing industry.
+- **TROUT** (Tourism Raises OceanUs Together) claims the board appeases entrenched fishing interests and ignores growth opportunities.
 
-**Tourism Raises OceanUs Together (TROUT)** accuses the board of being biased toward an entrenched interest and constantly "appeasing" the fishing industry, ignoring the new/growing avenues for economic stability. They accuse some members of ignoring the brave-new-world and living in the past.
+Two independent data sources document the board's activities: government records (13 meetings) and journalist records (16 meetings). The government dataset is a strict subset of the journalist data. Shared rows match exactly; the difference is coverage gaps.
+
+## Dashboards
+
+Four interactive dashboards, accessible via tabs in a single marimo app:
+
+| Tab | Dashboard | Question |
+|-----|-----------|----------|
+| 1 | Sentiment Map | How do members' sentiments align across fishing and tourism topics? |
+| 2 | Visit Map | Where do members travel, and do they favor industrial or tourism zones? |
+| 3 | Participation | How much activity does each person drive across topics? |
+| 4 | The Committee | Who said what, who agrees with whom, and where did they actually go to look? |
 
 ## Data
 
-### Source:
-- Collected by the Board
-- Collected by the Journalist
+| Source | Meetings | Discussions | Plans | Trips | Places |
+|--------|----------|-------------|-------|-------|--------|
+| Government | 13 | 75 | 55 | 194 | 93 |
+| Journalist | 16 | 101 | 74 | 342 | 172 |
 
-### Schema Diagram
+Six board members. Eight organizations. Fifteen topics spanning fishing infrastructure, tourism, housing, and community development. Entity tables (people, organizations, topics) are identical across both sources.
+
+### Schema
 
 ![Schema Diagram](schema_diagram.png)
 
+### Sources
+
+- `data/Collected_by_the_Government/` — 18 CSV files
+- `data/Collected_by_the_Journalist/` — 18 CSV files
+- `data/cleaned_data/` — Merged/normalized tables
+- `data/*.json`, `data/*.geojson` — Pre-computed data for dashboards 1-3
+
 ## Personas
 
-### Elena Petrova (pro-fishing)
+**Elena Petrova** (pro-fishing, FILAH) — Wants visual evidence of whether fishing is neglected or treated unfairly compared with tourism.
 
-Elena Petrova is a representative of Fishing is Living and Heritage (FILAH). She is concerned that the recent enthusiasm for tourism is causing the board to undervalue the fishing sector, despite its long-standing economic and cultural importance to Saltmere. She wants to understand whether committee decisions, and investments systematically disadvantage fishing interests. She is looking for clear visual evidence that shows whether fishing is being neglected, misrepresented, or treated unfairly compared with tourism.
+**Lucas Moreau** (pro-tourism, TROUT) — Wants visual summaries revealing whether the board is holding back change by favoring fishing over tourism.
 
-### Lucas Moreau (pro-tourism)
+**Marta Kowalska** (journalist) — Wants evidence-based patterns, inconsistencies, and conflicts of interest to communicate a balanced story.
 
-Lucas Moreau works with Tourism Raises OceanUs Together (TROUT). He believes Saltmere's future depends on embracing tourism as a growing source of jobs, income, and resilience, and he worries that the board remains too attached to the traditional fishing economy. He wants to see whether committee behaviour and strategic attention are disproportionately favouring fishing over emerging opportunities in tourism. He needs visual summaries that reveal whether the board is holding back change and failing to respond to the town's evolving economic reality.
+## Setup
 
-### Marta Kowalska (journalist)
+Requires Python 3.13+ and [uv](https://docs.astral.sh/uv/).
 
-Marta Kowalska is an investigative journalist covering the accusations made by both FILAH and TROUT. She is not committed to either side and wants to build an evidence-based account of whether bias is present, exaggerated, or unsupported. She needs to compare claims from the different groups against the broader data collected by both the government and independent reporting. She wants visualisations that help her identify patterns, inconsistencies, and possible conflicts of interest, so that she can communicate a balanced and credible story to the public.
+```bash
+# Run all 6 dashboards in tabs
+uv run marimo run index.py
+
+# Edit mode
+uv run marimo edit index.py
+```
+
+See [onboard.md](onboard.md) for a per-dashboard interaction guide.
