@@ -17,7 +17,6 @@ def _():
     import marimo as mo
     import json
     import requests
-
     return json, mo, requests
 
 

@@ -1,7 +1,7 @@
 """Builder for dashboard 4: The Committee — sentiment constellation + trip ribbon.
 
 Pure Python module — no marimo imports.
-Reads design assets (styles.css, app.jsx) from plan/Claude-Design/ and
+Reads design assets (styles.css, app.jsx) from Claude-Design/ and
 composes a self-contained HTML page with React 18 + Babel standalone.
 Returns an HTML string suitable for mo.iframe().
 """
@@ -28,9 +28,9 @@ def build_d4_html(data):
         Full HTML document string for use with mo.iframe().
     """
     data_js = "window.DATA = " + json.dumps(data).replace("</script>", r"<\/script>") + ";"
-    css = (_DIR / "plan" / "Claude-Design" / "styles.css").read_text(encoding="utf-8")
+    css = (_DIR / "Claude-Design" / "styles.css").read_text(encoding="utf-8")
     app_jsx = _patch_jsx(
-        (_DIR / "plan" / "Claude-Design" / "app.jsx").read_text(encoding="utf-8")
+        (_DIR  / "Claude-Design" / "app.jsx").read_text(encoding="utf-8")
     )
 
     return "\n".join([

@@ -300,9 +300,6 @@ function Constellation({ hovered, setHovered, selected, setSelected, mode }) {
         })}
       </g>
 
-      {/* center label */}
-      <text className="ring-label" x={personCx} y={personCy - personR - 24}
-            textAnchor="middle" letterSpacing="3">— THE COMMITTEE —</text>
     </svg>
   );
 }
